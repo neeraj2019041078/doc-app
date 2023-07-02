@@ -112,7 +112,7 @@ const resolve= async (req,res)=>{
      
       cur_pat.resolve=true;
       const resp=await cur_pat.save();
-      await axios.post('/schedule_event',resp);
+      await axios.post('https://doc-app1.onrender.com/schedule_event',resp);
       res.send(resp);
      
     }
