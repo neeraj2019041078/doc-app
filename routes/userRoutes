@@ -1,0 +1,8 @@
+const express=require("express");
+const {loginController,appointmentController,get_apos,resolve}  = require("../controllers/userCtrl");
+const router=express.Router();
+router.post('/login',loginController);
+router.post('/appointment',appointmentController);
+router.get('/all',get_apos);
+router.post('/resolve',resolve);
+module.exports=router;
