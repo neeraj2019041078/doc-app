@@ -112,7 +112,7 @@ const resolve= async (req,res)=>{
      
       cur_pat.resolve=true;
       const resp=await cur_pat.save();
-      await axios.post('http://localhost:8080/schedule_event',resp);
+      await axios.post('/schedule_event',resp);
       res.send(resp);
      
     }
