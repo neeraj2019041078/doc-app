@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/doc-app/static/css/main.06432026.css",
+    "main.js": "/doc-app/static/js/main.f15fe780.js",
+    "index.html": "/doc-app/index.html",
+    "main.06432026.css.map": "/doc-app/static/css/main.06432026.css.map",
+    "main.f15fe780.js.map": "/doc-app/static/js/main.f15fe780.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06432026.css",
+    "static/js/main.f15fe780.js"
+  ]
+}
